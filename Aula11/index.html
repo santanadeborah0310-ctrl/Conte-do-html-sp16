@@ -1,0 +1,131 @@
+<!DOCTAYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Conteúdo Aula11 - HTML</title>
+    </head>
+    <body>
+        .lista-nav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #888888;
+      }
+
+      .lista-nav li {
+        float: left;
+      }
+
+      li a {
+        display: block;
+        text-decoration: none;
+        padding: 16px;
+        color: ghostwhite;
+        font-family: monospace;
+        text-align: center;
+        font-weight: bold;
+      }
+
+      a:hover {
+        background-color: black;
+      }
+
+      a:active {
+        background-color: lightgray;
+        color: black;
+        transition: .2s;
+      }
+
+    </style>
+    
+  </head>
+  <body>
+    
+    <h1>Listas Não Ordenadas no HTML</h1>
+
+    <ul>
+      <li>Item</li>
+      <li>Item</li>
+      <li>Item</li>
+      <li>Item</li>
+      <li>Item</li>
+    </ul>
+
+    <hr>
+
+    <h2>Alterando estilos de marcadores</h2>
+
+    <h3>list-style-type: disc;</h3>
+
+    <ul style="list-style-type: disc;">
+      <li>Item</li>
+      <li>Item</li>
+      <li>Item</li>
+      <li>Item</li>
+      <li>Item</li>
+    </ul>
+
+    <br>
+
+    <h3>list-style-type: circle;</h3>
+
+    <ul style="list-style-type: circle;">
+      <li>Item</li>
+      <li>Item</li>
+      <li>Item</li>
+      <li>Item</li>
+      <li>Item</li>
+    </ul>
+
+    <br>
+
+    <h3>list-style-type: square;</h3>
+
+    <ul style="list-style-type: square;">
+      <li>Item</li>
+      <li>Item</li>
+      <li>Item</li>
+      <li>Item</li>
+      <li>Item</li>
+    </ul>
+
+    <br>
+
+    <h3>list-style-type: none;</h3>
+
+    <ul style="list-style-type: none;">
+      <li>Item</li>
+      <li>Item</li>
+      <li>Item</li>
+      <li>Item</li>
+      <li>Item</li>
+    </ul>
+
+    <hr>
+
+    <h2>Listas Aninhadas</h2>
+
+    <ul>
+      <li>Item</li>
+      <li>Item</li>
+        <ul>
+          <li>Item</li>
+          <li>Item</li>
+        </ul>
+      <li>Item</li>
+      <li>Item</li>
+    </ul>
+
+    <hr>
+
+    <h2>Listas Horizontais com o CSS</h2>
+
+    <ul class="lista-nav">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#contatos">Contatos</a></li>
+      <li><a href="#blog">Blog</a></li>
+    </ul>
+
+  </body>
+</html>
