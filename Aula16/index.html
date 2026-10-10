@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Conteúdo Aula16 - HTML</title>
+
+     <style>
+
+        *{
+            box-sizing:border-box
+        }
+
+        .div-esq{
+            background-color: darkolivegreen;
+            padding:20px;
+            float: left;
+            width: 20%;
+        }
+
+        .div-meio {
+         background-color: darkorange;
+         padding:20px;
+         float: left;
+         width: 60%;   
+        }
+
+        .div-dir{
+            background-color: darkcyan;
+            padding:20px;
+            float: left;
+            width:20%
+        }
+        .div-esq, .div-meio, .div-dir{
+            font-family: sans-serif;
+            color: ghostwhite;
+        }
+
+        @media screen and (max-width:500px) {
+            .div-esq,.div-meio, .div-dir {
+                width:100%
+            }
+        }
+
+
+     </style>
+    </head>
+    <body>
+
+        <h1>Responsividade no HTML</h1>
+
+        <h3>Imagens responsivas</h3>
+
+        <img src="pintura.jpg" style="width: 103%;">
+
+        <hr>
+
+        <h3>Imagem responsiva com max-width</h3>
+
+        <img src="pintura.jpg" style="max-width: 100%;">
+
+        <hr>
+
+        <h3 style="font-size: 5vw;">Texto responsivo com viewport width</h3>
+
+        <p style="font-size: 3vw;">Somente a dor coloetiva gera união</p>
+
+        <hr>
+
+        <h3>Exemplo de responsividade com media querie</h3>
+         
+            <div class="div-esq">
+                <h4>Esquerda</h4>
+            </div>
+
+            <div class="div-meio">
+                <h4>Meio</h4>
+            </div>
+
+            <div class="div-dir">
+                <h4>Direita</h4>
+            </div>
+
+            
+            
+        
+
+
+
+        
+    </body>
+</html>
